@@ -1,4 +1,4 @@
-baseURL:
+baseURL: "https://hxuu.github.io/blog/"
 languageCode: en-us
 title: hxuu
 theme: ["PaperMod"]
