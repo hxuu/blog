@@ -2,26 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/ctf/</loc>
+    <loc>http://localhost:1313/blog/ctf/</loc>
     <lastmod>2024-08-06T15:54:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/ctf/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-08-06T15:54:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
+    <loc>http://localhost:1313/blog/search/</loc>
   </url><url>
-    <loc>//localhost:1313/ctf/tfc/greetings/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/write-up/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-  </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
   </url>
 </urlset>
