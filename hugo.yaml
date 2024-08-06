@@ -6,6 +6,7 @@ theme: ["PaperMod"]
 outputs:
   home:
     - HTML
+    - RSS
     - JSON
 
 enableRobotsTXT: true
