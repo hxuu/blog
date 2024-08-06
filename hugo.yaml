@@ -20,8 +20,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: HxVault
+  description: "Explore CTF challenges, tutorials, and the latest in cybersecurity. Join me to sharpen your skills and stay informed!"
   keywords: [Blog, Portfolio, PaperMod]
   author: hxuu
   # author: ["Me", "You"] # multiple authors
