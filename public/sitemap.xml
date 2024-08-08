@@ -2,16 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/tags/ctf/</loc>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/ctf/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ctf/ctfs-a-beginner-guide/</loc>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/cybersecurity/</loc>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-08-06T15:54:50+01:00</lastmod>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2024-08-08T14:08:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
   </url>
 </urlset>

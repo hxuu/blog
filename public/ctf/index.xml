@@ -11,7 +11,14 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 14:08:49 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ctfs - A Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/blog/ctf/ctfs-a-beginner-guide/</link>
+      <pubDate>Thu, 08 Aug 2024 14:08:49 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/ctfs-a-beginner-guide/</guid>
+      <description>Breaking into CTFs: A Beginner&amp;#39;s Guide to Capture the Flag Competitions</description>
+    </item>
   </channel>
 </rss>
