@@ -187,7 +187,7 @@ print(type('hxuu'))
 and we get `<class 'str'>`, that is, the string 'hxuu' is an instance of the str class.
 In the same way variables are objects, functions too are objects. Now check this out.
 
-In normal day to day programming, when we want to execute a shell command using python,
+In normal day to day programming, when we want to read a file using python,
 we would use something like this
 
 ```python
@@ -195,7 +195,7 @@ with open('/etc/passwd') as file:
     content = file.read()
 ```
 
-which open the `/etc/passwd` file and reads its content. We can achieve the same thing, but start with a string
+which opens the `/etc/passwd` file and reads its content. We can achieve the same thing, but start with a string
 instead, how so?
 
 Since everything is an object, meaning everything in python inherents from the object class.
@@ -215,12 +215,6 @@ We can use either one of those, but the easiest is the `request` object, from wh
 we can access the application context, through which we can import the 'os' module, and get RCE!
 
 Let's build our payload then:
-
-```python
-{{request.application.__globals__.__builtins__.__import__('os').popen('<our-command>').read()}}
-```
-
-Certainly! The expression:
 
 ```python
 {{request.application.__globals__.__builtins__.__import__('os').popen('<our-command>').read()}}
