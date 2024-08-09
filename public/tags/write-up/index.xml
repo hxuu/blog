@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hxuu</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content on hxuu</description>
+    <title>Write-Up on hxuu</title>
+    <link>http://localhost:1313/blog/tags/write-up/</link>
+    <description>Recent content in Write-Up on hxuu</description>
     <image>
       <title>hxuu</title>
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Aug 2024 09:40:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/write-up/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>n00bzCTF - File Sharing Portal</title>
       <link>http://localhost:1313/blog/ctf/n00bz24/file-sharing-portal/</link>
       <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
       <guid>http://localhost:1313/blog/ctf/n00bz24/file-sharing-portal/</guid>
       <description>CTF write-up for File Sharing Portal</description>
-    </item>
-    <item>
-      <title>Ctfs - A Beginner&#39;s Guide</title>
-      <link>http://localhost:1313/blog/ctf/ctfs-a-beginner-guide/</link>
-      <pubDate>Thu, 08 Aug 2024 14:08:49 +0100</pubDate>
-      <guid>http://localhost:1313/blog/ctf/ctfs-a-beginner-guide/</guid>
-      <description>Breaking into CTFs: A Beginner&amp;#39;s Guide to Capture the Flag Competitions</description>
     </item>
   </channel>
 </rss>
