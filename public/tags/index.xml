@@ -9,15 +9,29 @@
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.132.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Aug 2024 09:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2024 17:55:33 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctf</title>
       <link>http://localhost:1313/blog/tags/ctf/</link>
-      <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
+      <pubDate>Tue, 13 Aug 2024 17:55:33 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Litctf</title>
+      <link>http://localhost:1313/blog/tags/litctf/</link>
+      <pubDate>Tue, 13 Aug 2024 17:55:33 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/litctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Write-Up</title>
+      <link>http://localhost:1313/blog/tags/write-up/</link>
+      <pubDate>Tue, 13 Aug 2024 17:55:33 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
@@ -25,13 +39,6 @@
       <link>http://localhost:1313/blog/tags/n00bzctf/</link>
       <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/n00bzctf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Write-Up</title>
-      <link>http://localhost:1313/blog/tags/write-up/</link>
-      <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
-      <guid>http://localhost:1313/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
