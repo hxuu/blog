@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Aug 2024 19:05:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 19:14:03 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/write-up/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intruder</title>
+      <link>http://localhost:1313/blog/ctf/sekai24/intruder/</link>
+      <pubDate>Tue, 27 Aug 2024 19:14:03 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/sekai24/intruder/</guid>
+      <description>CTF write-up for Intruder</description>
+    </item>
+    <item>
+      <title>IdekCTF 24 - Hello</title>
+      <link>http://localhost:1313/blog/ctf/idek24/hello/</link>
+      <pubDate>Sun, 18 Aug 2024 22:22:37 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/idek24/hello/</guid>
+      <description>CTF write-up for Hello</description>
+    </item>
     <item>
       <title>LITCTF24 - Traversed</title>
       <link>http://localhost:1313/blog/ctf/lit24/traversed/</link>
