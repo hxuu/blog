@@ -1,5 +1,5 @@
 ---
-title: "Intruder"
+title: "SEKAI 24 - Intruder"
 date: 2024-08-27T19:14:03+01:00
 tags: ["ctf", "write-up", "sekaictf"]
 author: "hxuu"
