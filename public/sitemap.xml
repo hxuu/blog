@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/tags/ctf/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/ctf/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ctf/sekai24/intruder/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <loc>http://localhost:1313/blog/ctf/sekai24/funny-lfr/</loc>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/sekaictf/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2024-08-27T19:14:03+01:00</lastmod>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/write-up/</loc>
+    <lastmod>2024-08-30T11:01:21+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ctf/sekai24/intruder/</loc>
     <lastmod>2024-08-27T19:14:03+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/idekctf/</loc>

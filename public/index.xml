@@ -9,12 +9,19 @@
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2024 19:14:03 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 11:01:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intruder</title>
+      <title>SEKAI 24 - Funny Lfr</title>
+      <link>http://localhost:1313/blog/ctf/sekai24/funny-lfr/</link>
+      <pubDate>Fri, 30 Aug 2024 11:01:21 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/sekai24/funny-lfr/</guid>
+      <description>CTF write-up for Funny Lfr</description>
+    </item>
+    <item>
+      <title>SEKAI 24 - Intruder</title>
       <link>http://localhost:1313/blog/ctf/sekai24/intruder/</link>
       <pubDate>Tue, 27 Aug 2024 19:14:03 +0100</pubDate>
       <guid>http://localhost:1313/blog/ctf/sekai24/intruder/</guid>

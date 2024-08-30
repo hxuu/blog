@@ -9,7 +9,7 @@
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Aug 2024 09:40:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/n00bzctf/index.xml" rel="self" type="application/rss+xml" />
