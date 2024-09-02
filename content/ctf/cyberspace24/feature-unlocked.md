@@ -315,7 +315,7 @@ date = validate_access(validation_server)
 return date >= NEW_FEATURE_RELEASE
 ```
 
-However, the server used by the application currently doesn't server us well. Only if we could redirect the application onto a server of our own...
+However, the server used by the application currently doesn't serve us well. Only if we could redirect the application onto a server of our own...
 
 ---
 
