@@ -58,7 +58,7 @@ It seems that we have to unlock the new feature which is only available after th
 ![feature-initial](/blog/images/2024-09-02-10-33-19.png)
 
 We obviously can't wait until the CTF ends, luckily for us, we're given the source code
-for the application [here]()
+for the application [here](https://2024.csc.tf/files/2fcb84a23fe1a4a6453f4345951a062c/handout_featur_eunlocked.zip?token=eyJ1c2VyX2lkIjo4MDEsInRlYW1faWQiOjQwMCwiZmlsZV9pZCI6NTJ9.ZtWnVA.Go_XGd7hv5RMCLcG43jU7YpMRNU)
 
 ```bash
 .

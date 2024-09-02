@@ -54,7 +54,7 @@ We're given the following web page (after we login)
 ![functionality](/blog/images/2024-09-02-11-15-54.png)
 
 We can create posts and view them. Following what the description says, our job is to view
-this hidden post, luckily for us, we're given the source code [here]()
+this hidden post, luckily for us, we're given the source code [here](https://2024.csc.tf/files/b8af02ac0f411268b239e62fd2c6e7dd/handout_trendz.zip?token=eyJ1c2VyX2lkIjo4MDEsInRlYW1faWQiOjQwMCwiZmlsZV9pZCI6NTB9.ZtWjAA.MI0GGzruP8zhlBfSGxRmioVo8zQ)
 
 ```bash
 .
