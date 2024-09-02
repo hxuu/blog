@@ -9,6 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for {{ replace .Name "-" " " | title }}"
+summary: ""
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
@@ -36,6 +37,7 @@ editPost:
 name:
 category:
 points:
+solves:
 ```
 
 --description-here
