@@ -9,7 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for Trendz"
-summary: "To solve the "Trendz" CTF challenge, exploit JWT token validation and secret key exposure. By accessing the `/static` endpoint to retrieve the JWT secret, craft a valid token with the "admin" role to view the hidden post and obtain the flag."
+summary: "To solve the \"Trendz\" CTF challenge, exploit JWT token validation and secret key exposure. By accessing the `/static` endpoint to retrieve the JWT secret, craft a valid token with the \"admin\" role to view the hidden post and obtain the flag."
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
