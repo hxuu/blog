@@ -1,7 +1,7 @@
 ---
 title: "CyberSpace24 - Feature Unlocked"
 date: 2024-09-02T10:28:44+01:00
-tags: ["ctf", "write-up"]
+tags: ["ctf", "write-up", "cyberspace"]
 author: "hxuu"
 showToc: true
 TocOpen: false
