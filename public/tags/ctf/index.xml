@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Aug 2024 11:01:21 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2024 11:51:43 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CyberSpace24 - Trendz</title>
+      <link>http://localhost:1313/blog/ctf/cyberspace24/trendz/</link>
+      <pubDate>Mon, 02 Sep 2024 11:51:43 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/cyberspace24/trendz/</guid>
+      <description>CTF write-up for Trendz</description>
+    </item>
+    <item>
+      <title>CyberSpace24 - Trendzz</title>
+      <link>http://localhost:1313/blog/ctf/cyberspace24/trendzz/</link>
+      <pubDate>Mon, 02 Sep 2024 11:13:20 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/cyberspace24/trendzz/</guid>
+      <description>CTF write-up for Trendzz</description>
+    </item>
+    <item>
+      <title>CyberSpace24 - Feature Unlocked</title>
+      <link>http://localhost:1313/blog/ctf/cyberspace24/feature-unlocked/</link>
+      <pubDate>Mon, 02 Sep 2024 10:28:44 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ctf/cyberspace24/feature-unlocked/</guid>
+      <description>CTF write-up for Feature Unlocked</description>
+    </item>
     <item>
       <title>SEKAI 24 - Funny Lfr</title>
       <link>http://localhost:1313/blog/ctf/sekai24/funny-lfr/</link>

@@ -64,7 +64,7 @@ which is probably the flag. Let's try posting then.
 ![error-posts](/blog/images/2024-09-02-11-18-08.png)
 
 Oops, we can't create more than 10 posts. Why is that? Luckily for us, we're given the source code
-of the application [here]()
+of the application [here](https://2024.csc.tf/files/b8af02ac0f411268b239e62fd2c6e7dd/handout_trendz.zip?token=eyJ1c2VyX2lkIjo4MDEsInRlYW1faWQiOjQwMCwiZmlsZV9pZCI6NTB9.ZtWjAA.MI0GGzruP8zhlBfSGxRmioVo8zQ)
 
 ```bash
 .
