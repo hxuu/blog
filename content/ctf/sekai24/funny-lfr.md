@@ -9,6 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for Funny Lfr"
+summary: "The article explains exploiting a race condition in a Starlette app to bypass `os.stat` checks, using symlinks, and ultimately retrieving the flag from `/proc/self/environ`."
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
