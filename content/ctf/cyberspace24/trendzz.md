@@ -1,7 +1,7 @@
 ---
 title: "CyberSpace24 - Trendzz"
 date: 2024-09-02T11:13:20+01:00
-tags: ["ctf", "write-up"]
+tags: ["ctf", "write-up", "cyberspace"]
 author: "hxuu"
 showToc: true
 TocOpen: false
