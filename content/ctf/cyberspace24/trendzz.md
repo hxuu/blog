@@ -57,7 +57,7 @@ let's register and check the main page
 ![functionality](/blog/images/2024-09-02-11-15-54.png)
 
 It a one page website, that enables us to create posts and view them. Checking the challenge
-description again, it seems that we have to post more 12 posts to uncover the special "gift"
+description again, it seems that we have to post more than 12 posts to uncover the special "gift"
 which is probably the flag. Let's try posting then.
 
 
