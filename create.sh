@@ -10,5 +10,5 @@ fi
 NAME=$(echo "$1" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 
 # Create the new CTF write-up
-hugo new --kind ctf "ctf/$NAME.md"
+hugo new --kind misc "misc/$NAME.md"
 
