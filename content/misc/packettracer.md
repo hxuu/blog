@@ -268,10 +268,30 @@ routing information between each other)
 
 ### 4. Bonus (Inter VLAN Using a Router)
 
+Copy the topology of the first VLAN TP and add a router like this:
 
+![intervlan-router](/blog/images/2024-12-09-20-53-46.png)
 
-Summarize the key points and takeaways of the article.
+1. Router Configuration for Inter-VLAN Routing:
+
+```bash
+Router(config)#interface gigabitEthernet 0/0/0.10
+Router(config-subif)#encapsulation dot1Q 10
+Router(config-subif)#ip address 192.168.10.10 255.255.255.0
+Router(config-subif)#exit
+
+# after configuring each and every one:
+Router(config)#interface gigabitEthernet 0/0/0
+Router(config-if)#no shutdown
+Router(config-subif)#exit
+```
+
+> You can make sure the subinterfaces were created using `show ip route`
+> don't forget to make the 4th switch interface to be trunk.
+
+2. Test connectivity using the ping command between different vlans.
+
 ## Summary
 
-Summarize the key points and takeaways of the article.
+Good Luck~
 
