@@ -9,10 +9,24 @@
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.136.2</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 20:21:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Dec 2024 16:17:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Packettracer</title>
+      <link>http://localhost:1313/blog/misc/packettracer/</link>
+      <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
+      <guid>http://localhost:1313/blog/misc/packettracer/</guid>
+      <description>An in-depth guide on Packettracer</description>
+    </item>
+    <item>
+      <title>Reviewing Rfc-1058</title>
+      <link>http://localhost:1313/blog/misc/rfc1058/</link>
+      <pubDate>Thu, 05 Dec 2024 08:14:11 +0100</pubDate>
+      <guid>http://localhost:1313/blog/misc/rfc1058/</guid>
+      <description>A Brief Overview of The Routing Information Protocol</description>
+    </item>
     <item>
       <title>Looking at the Top Command - But More...</title>
       <link>http://localhost:1313/blog/misc/looking-at-the-top-command/</link>

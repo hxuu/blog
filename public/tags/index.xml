@@ -9,29 +9,36 @@
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.136.2</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 20:21:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Dec 2024 16:17:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
       <link>http://localhost:1313/blog/tags/guide/</link>
-      <pubDate>Wed, 16 Oct 2024 20:21:55 +0100</pubDate>
+      <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>It-Concepts</title>
       <link>http://localhost:1313/blog/tags/it-concepts/</link>
-      <pubDate>Wed, 16 Oct 2024 20:21:55 +0100</pubDate>
+      <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/it-concepts/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/blog/tags/tutorial/</link>
-      <pubDate>Wed, 16 Oct 2024 20:21:55 +0100</pubDate>
+      <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/blog/tags/networking/</link>
+      <pubDate>Thu, 05 Dec 2024 08:14:11 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/networking/</guid>
       <description></description>
     </item>
     <item>
