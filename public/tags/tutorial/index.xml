@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2024 16:17:28 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 12:44:37 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Working with Packettracer to Understand Networking</title>
+      <title>Test</title>
+      <link>http://localhost:1313/blog/misc/test/</link>
+      <pubDate>Tue, 10 Dec 2024 12:44:37 +0100</pubDate>
+      <guid>http://localhost:1313/blog/misc/test/</guid>
+      <description>An in-depth guide on Test</description>
+    </item>
+    <item>
+      <title>Working with Packettracer</title>
       <link>http://localhost:1313/blog/misc/packettracer/</link>
       <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
       <guid>http://localhost:1313/blog/misc/packettracer/</guid>

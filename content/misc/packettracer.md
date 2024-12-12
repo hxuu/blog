@@ -291,6 +291,26 @@ Router(config-subif)#exit
 
 2. Test connectivity using the ping command between different vlans.
 
+![ping-test-between different vlans](/blog/images/2024-12-12-10-22-54.png)
+
+3. Show Router Configuration
+
+![interfaces-router](/blog/images/2024-12-12-10-44-19.png)
+![router-config](/blog/images/2024-12-12-10-21-37.png)
+
+4. To clear the ARP table:
+
+- On the switch/router:
+```bash
+enable
+clear arp-cache
+```
+
+- On the PC:
+```bash
+arp -d
+```
+
 ## Summary
 
 Good Luck~
