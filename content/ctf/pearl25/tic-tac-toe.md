@@ -40,8 +40,10 @@ After starting the instance of the challenge, we're faced with what looks like a
 game over a web front. As we can see below, we can deploy and ping the game server, then click on
 the squares to send an HTTP request to the game server containing our game state.
 
--- image here (ping)
--- image here (sending the game state)
+
+![ping](/blog/images/2025-03-09-23-37-51.png)
+
+![state](/blog/images/2025-03-09-23-38-20.png)
 
 Since the UI doesn't give away much of the web application's logic, let's dive into the source code
 to see how the latter works, namely, what endpoints are there and which of those can we tamper with.
