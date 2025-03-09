@@ -1,0 +1,21 @@
+.DS_Store           # macOS specific - Finder store files
+Thumbs.db           # Windows specific - thumbnail cache
+public/             # Hugo's generated site output - should be deployed, not tracked
+resources/          # Hugo's cache directory
+.hugo_build.lock   # Hugo's build lock file
+/config/_default/hugo.toml # If you have sensitive info in default config, add it.
+/config/development/hugo.toml # Development config
+/config/production/hugo.toml # Production config
+/data/* # If you have sensitive info in data files, add it.
+/layouts/_partials/ # If you have sensitive info in partials, add it.
+/themes/*/layouts/_partials/*.html # Example: If you have sensitive data in a specific theme's partials.
+.env                # Environment variables file (if used)
+.env.*              # More comprehensive environment variables
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+*.swp               # Swap files (vim, etc.)
+*~                  # Backup files (various editors)
+# Editor specific files (examples)
+.idea/              # IntelliJ IDEA
+.vscode/            # VS Code
+.cache             # General cache files
