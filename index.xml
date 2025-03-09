@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2024 16:17:28 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 22:13:34 +0100</lastBuildDate>
     <atom:link href="https://hxuu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PearlCTF 25 - Web/Tic-Tac-Toe</title>
+      <link>https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/</link>
+      <pubDate>Sat, 08 Mar 2025 22:13:34 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/</guid>
+      <description>CTF write-up for Ttt</description>
+    </item>
     <item>
       <title>Working with Packettracer</title>
       <link>https://hxuu.github.io/blog/misc/packettracer/</link>

@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hxuu.github.io/blog/tags/guide/</loc>
-    <lastmod>2024-12-09T16:17:28+01:00</lastmod>
+    <loc>https://hxuu.github.io/blog/tags/ctf/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/pearl/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/write-up/</loc>
+    <lastmod>2025-03-08T22:13:34+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/guide/</loc>
     <lastmod>2024-12-09T16:17:28+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/tags/it-concepts/</loc>
@@ -15,9 +33,6 @@
     <lastmod>2024-12-09T16:17:28+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/tags/networking/</loc>
-    <lastmod>2024-12-09T16:17:28+01:00</lastmod>
-  </url><url>
-    <loc>https://hxuu.github.io/blog/tags/</loc>
     <lastmod>2024-12-09T16:17:28+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/tags/tutorial/</loc>
@@ -35,19 +50,10 @@
     <loc>https://hxuu.github.io/blog/misc/x11/</loc>
     <lastmod>2024-10-11T10:10:25+01:00</lastmod>
   </url><url>
-    <loc>https://hxuu.github.io/blog/tags/ctf/</loc>
-    <lastmod>2024-09-02T11:51:43+01:00</lastmod>
-  </url><url>
-    <loc>https://hxuu.github.io/blog/ctf/</loc>
-    <lastmod>2024-09-02T11:51:43+01:00</lastmod>
-  </url><url>
     <loc>https://hxuu.github.io/blog/tags/cyberspace/</loc>
     <lastmod>2024-09-02T11:51:43+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/ctf/cyberspace24/trendz/</loc>
-    <lastmod>2024-09-02T11:51:43+01:00</lastmod>
-  </url><url>
-    <loc>https://hxuu.github.io/blog/tags/write-up/</loc>
     <lastmod>2024-09-02T11:51:43+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/ctf/cyberspace24/trendzz/</loc>
