@@ -11,13 +11,27 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Mar 2025 22:13:34 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 11:14:27 +0100</lastBuildDate>
     <atom:link href="https://hxuu.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctf</title>
       <link>https://hxuu.github.io/blog/tags/ctf/</link>
-      <pubDate>Sat, 08 Mar 2025 22:13:34 +0100</pubDate>
+      <pubDate>Tue, 18 Mar 2025 11:14:27 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Utctf</title>
+      <link>https://hxuu.github.io/blog/tags/utctf/</link>
+      <pubDate>Tue, 18 Mar 2025 11:14:27 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/tags/utctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Write-Up</title>
+      <link>https://hxuu.github.io/blog/tags/write-up/</link>
+      <pubDate>Tue, 18 Mar 2025 11:14:27 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
@@ -25,13 +39,6 @@
       <link>https://hxuu.github.io/blog/tags/pearl/</link>
       <pubDate>Sat, 08 Mar 2025 22:13:34 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/tags/pearl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Write-Up</title>
-      <link>https://hxuu.github.io/blog/tags/write-up/</link>
-      <pubDate>Sat, 08 Mar 2025 22:13:34 +0100</pubDate>
-      <guid>https://hxuu.github.io/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
