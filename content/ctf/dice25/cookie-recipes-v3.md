@@ -158,11 +158,9 @@ Something in red, yay! Let’s take a closer look at how `req.query.number` is a
 
 ## Task Analysis
 
-Admittedly, I took the hardest route when solving the challenge on remote, and when I tried
-to solve it locally, it didn't work xD.
+Admittedly, I took the hardest route when solving the challenge on remote, and when I tried to solve it locally, it didn't work xD.
 
-Only after some time did I realize what was wrong: ExpressJS version >= 4.16.0
-mitigates the vulnerability I'm about to discuss. I found another (simpler and more effective) solution [here](https://github.com/PwnOfPower/DiceCTF_Quals_2025/tree/main/web/cookie-recipes-v3)
+Only after some time did I realize what was wrong: ExpressJS version 5.x mitigates the vulnerability (or feature?) I'm about to discuss. I found another (simpler and more effective) solution [here](https://github.com/PwnOfPower/DiceCTF_Quals_2025/tree/main/web/cookie-recipes-v3)
 
 {{< notice tip >}}
 Tip: The solution above works because NaN compared to any numeric value returns false.
@@ -189,8 +187,8 @@ we can test that by creating our own ExpressJS environnment, parse a query strin
 1. Set up the environnment:
 
 ```bash
-npm init
-npm install express
+npm init -y
+npm install express@4.15.0
 ```
 
 2. Set a simple web server to test the hypotheses:
@@ -202,9 +200,10 @@ const app = express();
 
 app.get('/', (req, res) => {
     const queryExpress = req.query; // the parsed req.query from expressjs
-    const queryQS = qs.parse('a string that we will supply to our / endpoint as a query string');
+    const queryQS = qs.parse('a[]=b');  // the parsed req.query from qs
 
-    console.log(queryQS === queryExpress); // this will verify our hypotheses
+    console.log(queryQS)
+    console.log(queryExpress);
     res.end();
 });
 
@@ -222,9 +221,11 @@ curl "http://localhost:3000/?a[]=b"
 Gives:
 
 ```bash
-dice25/web/cookie-recipes-v3 via  v20.19.0
+web/cookie-recipes-v3/playground via  v20.19.0
 ➜ node index.js
-true
+Server listening at http://localhost:3000
+{ a: [ 'b' ] }
+{ a: [ 'b' ] }
 ```
 
 Great! express uses the `qs` module to parse query strings, not Node's default querystring.
