@@ -19,12 +19,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-cover:
-    image: "/images/default-cover.jpg" # default image path/url
-    alt: "CTF Write-up Cover Image" # alt text
-    caption: "CTF Write-up" # display caption under cover
-    relative: false
-    hidden: false
 editPost:
     URL: "https://github.com/hxuu/content"
     Text: "Suggest Changes"
