@@ -1,0 +1,16 @@
+{{ $type := .Get 0 | default "info" }}
+<div style="
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid;
+  border-radius: 0.5rem;
+  background-color: {{ if eq $type "tip" }}#1e293b{{ else if eq $type "warn" }}#7f1d1d{{ else }}#374151{{ end }};
+  border-color: {{ if eq $type "tip" }}#38bdf8{{ else if eq $type "warn" }}#f87171{{ else }}#a1a1aa{{ end }};
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+">
+  {{ .Inner }}
+</div>
+
