@@ -182,7 +182,7 @@ if (number.length <= 2) {
 ```
 
 The check only limits the `.length` of `number`. Suspecting Express uses the `qs` module for query parsing `(req.query)`,
-we can test that by creating our own ExpressJS environnment, parse a query string using both exprss and qs and compare the results.
+we can test that by creating our own ExpressJS environnment, parse a query string using both express and qs and compare the results.
 
 1. Set up the environnment:
 
@@ -261,8 +261,6 @@ We can see that the check is on `number.length <= 2`. If `number` is a string li
 So, even though the check is still in place, we bypass it by controlling the input type — an array instead of a string. Now we just need to understand how JavaScript handles `Number(array)`.
 
 ---
-
-Nice, we have a number string being converted to a `Number`. But here, we are working with an array — how does that play out?
 
 You could experiment with different inputs to find the answer quickly, but let’s take a deeper dive into JavaScript's internal workings, specifically focusing on its implicit type conversion feature.
 
