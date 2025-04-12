@@ -295,6 +295,7 @@ Navigating to google maps, and entering the coordinates, we get:
 
 Flag then is: `utflag{1059-s-high-st-columbus-43206}`
 
+![this is the alt for the image](/blog/images/2025-03-27-09-37-50.png)
 ---
 
 Lessons learned from this challenge:
@@ -303,3 +304,13 @@ Lessons learned from this challenge:
 2. [Converting from longitude\latitude to Cartesian coordinates](https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates)
 3. [Bash scripting](https://www.gnu.org/software/bash/manual/bash.html)
 4. [NumPy](https://numpy.org/doc/stable/index.html)
+
+---
+
+This will be the place for the new image!
+![this is the alt for the image](/blog/images/2025-03-27-09-37-50.png)
+
+
+> note that the image path is the real path on the system
+> you need its path in your blog. since my blog is running on /blog => path should be /blog/images/
+
