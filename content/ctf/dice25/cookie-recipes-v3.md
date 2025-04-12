@@ -284,7 +284,8 @@ As the name suggests, this function converts an object to a primitive value (eit
 2. If that doesn't provide a suitable primitive, it then calls the object's `toString()` method, which returns the string representation of the array.
 
 > `.valueOf()` returns the array itself because that's how JavaScript's `Array.prototype.valueOf()` is defined in the spec.
-> You can read more about [valueOf()] and [toString()] to understand how they work.
+
+> You can read more about [Object.prototype.valueOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf) and [Object.prototype.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) to understand how they work.
 
 So, what’s happening here? When an array is passed to `Number()`, it is first converted to a string (via `toString()`), and then that string is passed to `Number()`, which converts it to a number using `StringToNumber()`.
 
