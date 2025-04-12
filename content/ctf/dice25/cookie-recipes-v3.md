@@ -1,7 +1,7 @@
 ---
 title: "Writeup for web/cookie-recipes-v3"
 date: 2025-04-12T12:18:04+01:00
-tags: ["ctf", "write-up"]
+tags: ["ctf", "write-up", "dice"]
 author: "hxuu"
 showToc: true
 TocOpen: false
@@ -140,10 +140,6 @@ app.post('/deliver', (req, res) => {
 
 app.listen(3000)
 ```
-
-Sure — here's a continuation that briefly explains the code and hints at the interesting `req.query.number` part, keeping your analytical tone and structure:
-
----
 
 The backend is a small Express.js app with no authentication or database — just an in-memory `Map` to store cookie counts per user. Each visitor gets a `user` cookie set via middleware if it doesn’t already exist, and this ID is used as the key to track how many cookies they’ve baked.
 
