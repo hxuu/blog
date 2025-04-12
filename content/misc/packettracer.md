@@ -19,12 +19,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-cover:
-    image: "/images/default-cover.jpg"
-    alt: "IT Guide Cover Image"
-    caption: "Detailed guide on IT concepts"
-    relative: false
-    hidden: false
 editPost:
     URL: "https://github.com/hxuu/content"
     Text: "Suggest Changes"

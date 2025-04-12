@@ -1,6 +1,9 @@
 .DS_Store           # macOS specific - Finder store files
 Thumbs.db           # Windows specific - thumbnail cache
-public/             # Hugo's generated site output - should be deployed, not tracked
+public/*             # Hugo's generated site output - should be deployed, not tracked
+public              # Hugo's generated site output - should be deployed, not tracked
+/public              # Hugo's generated site output - should be deployed, not tracked
+/public/              # Hugo's generated site output - should be deployed, not tracked
 resources/          # Hugo's cache directory
 .hugo_build.lock   # Hugo's build lock file
 /config/_default/hugo.toml # If you have sensitive info in default config, add it.
