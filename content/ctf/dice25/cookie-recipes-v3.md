@@ -276,7 +276,7 @@ When the `Number()` function is called, it converts its argument into a number f
 
 `ToPrimitive()` is invoked implicitly when we pass an object, and what does it do?
 
-As the name suggests, this function converts an object to a primitive value (either a string or a number), and it does so by calling `OrdinaryToPrimitive`. This function takes the object and a preferred type (in this case, `number`).
+As the name suggests, this function converts an object to a primitive value (either a string or a number), and it does so by calling `OrdinaryToPrimitive`. This function takes the object and a preferred type (by default, `number`).
 
 `OrdinaryToPrimitive` proceeds as follows:
 
