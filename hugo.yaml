@@ -3,6 +3,9 @@ languageCode: en-us
 title: hxuu
 theme: ["PaperMod"]
 
+ignoreLogs:
+  - 'warning-partial-superfluous-prefix'
+
 outputs:
   home:
     - HTML
