@@ -360,7 +360,7 @@ See. The server doesn’t wait for the full body to call the route logic. That's
 
 Why does that matter?
 
-Because in our vulnerable app, the response sets a cookie `(token=...)` before the request finishes. This will give us a small window to do what we want: **Getting the flag**.
+Because in our vulnerable app, the response sets a cookie `(token=...)` before the request finishes. This will give us a small window to do what we want with the **token in the response header**.
 
 ## Exploitation
 
