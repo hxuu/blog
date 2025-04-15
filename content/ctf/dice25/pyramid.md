@@ -315,7 +315,7 @@ That means the user is only fully created once the `'end'` event is emitted — 
 
 This behavior falls under what's called **event-driven programming** — basically, code execution is triggered by events like "data received" or "request ended." In Node.js, the core `http` module lets you manually handle these events using `req.on(...)`.
 
-> Express still uses Node’s HTTP module under the hood. You can read more about event-driven programming [here]()
+> Express still uses Node’s HTTP module under the hood. You can read more about event-driven programming [here](https://en.wikipedia.org/wiki/Event-driven_programming)
 
 ---
 
@@ -370,7 +370,7 @@ We exploit the fact that, in Node's HTTP module, the response headers are sent o
 
 > the `name` field in the request is not necessary.
 
-Alright, let's get to business. I'll be using [pwntools]() to deliver the attack.
+Alright, let's get to business. I'll be using [pwntools](https://docs.pwntools.com/en/stable/) to deliver the attack.
 
 1. Create a TCP connection with the server and keep it alive so we can receive the response headers:
 
