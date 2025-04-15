@@ -309,7 +309,7 @@ The app ties users and their referral codes to tokens, and tokens are only set *
 
 Turns out, this isn’t your usual Express app. While it uses Express for routing, the actual user creation is done by listening to **Node.js core HTTP events**, particularly the 'data' and 'end' events on the request object.
 
-screenshot: of expressjs indication that you can use node's original stuff for handling
+![express-node-integration](/blog/images/2025-04-15-19-42-29.png)
 
 That means the user is only fully created once the `'end'` event is emitted — after the request body is fully received.
 
