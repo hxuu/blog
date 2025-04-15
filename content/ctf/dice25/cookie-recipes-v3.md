@@ -1,5 +1,5 @@
 ---
-title: "Writeup for web/cookie-recipes-v3"
+title: "Dice25: Writeup for web/cookie-recipes-v3"
 date: 2025-04-12T12:18:04+01:00
 tags: ["ctf", "write-up", "dice"]
 author: "hxuu"
