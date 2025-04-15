@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Apr 2025 12:18:04 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 10:42:39 +0100</lastBuildDate>
     <atom:link href="https://hxuu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Writeup for web/cookie-recipes-v3</title>
+      <title>Dice25: Writeup for web/pyramid</title>
+      <link>https://hxuu.github.io/blog/ctf/dice25/pyramid/</link>
+      <pubDate>Tue, 15 Apr 2025 10:42:39 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/dice25/pyramid/</guid>
+      <description>CTF write-up for Pyramid</description>
+    </item>
+    <item>
+      <title>Dice25: Writeup for web/cookie-recipes-v3</title>
       <link>https://hxuu.github.io/blog/ctf/dice25/cookie-recipes-v3/</link>
       <pubDate>Sat, 12 Apr 2025 12:18:04 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/ctf/dice25/cookie-recipes-v3/</guid>
