@@ -9,7 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Challenge write-up for The Unseen Curse, problem solving challenge."
-summary: ""
+summary: "This challenge masterfully blends deductive logic, iterative inference, and a compelling magical narrative. It requires understanding how knowledge propagates in rounds and how silence becomes information. By modeling the interactions over successive nights, we compute the precise moment someone can break the uncertainty and solve the puzzle."
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
