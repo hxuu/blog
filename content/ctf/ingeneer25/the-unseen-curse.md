@@ -25,13 +25,11 @@ editPost:
     appendFilePath: true
 ---
 
-```
-**Challenge Name**: The Unseen Curse
-**Category**: Problem Solving
-**Author**: hxuu
-**Difficulty**: Tough
-**Tags**: `pure logic`, `tough`
-```
+* Challenge Name: The Unseen Curse
+* Category: Problem Solving
+* Author: hxuu
+* Difficulty: Tough
+* Tags: `pure logic`, `tough`
 
 ## Challenge Description
 
@@ -193,11 +191,7 @@ if __name__ == "__main__":
     print("Flag:", f"1ng3neer2k25{{{''.join(results)}}}")
 ```
 
-Each result becomes a digit in the final flag. then the final flag is:
-
-```
-1ng3neer2k25{5211322412311434132}
-```
+Each result becomes a digit in the final flag. then the final flag is: `1ng3neer2k25{5211322412311434132}`
 
 ---
 
