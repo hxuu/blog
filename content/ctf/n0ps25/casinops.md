@@ -26,7 +26,7 @@ editPost:
 ---
 
 
-# Challenge Overview
+## Challenge Overview
 
 * CTF: N0PS CTF 2025
 * Challenge: Casin0ps
@@ -38,7 +38,7 @@ editPost:
 
 [Link to the challenge (I'll update it to the source after the challenge is down)](https://nopsctf-casino.chals.io/login?next=%2F)
 
-# TL;DR
+## TL;DR
 
 A Flask-based web application echoing user-provided data via a CSV export feature.
 By inspecting response headers, we confirm it’s a Flask app and identify Jinja2 templating.
@@ -47,7 +47,7 @@ The export functionality naively injects `username/email` into a template, leadi
 We chain the Flask `request` object to reach `__builtins__` and import `subprocess` to execute commands.
 Finally, we automate the exploit to retrieve the flag from the exported CSV.
 
-# Initial Analysis
+## Initial Analysis
 
 At a glance, the app appears to be a simple casino interface: users register, log in, and play a luck-based game to win a jackpot
 However, the “game” is clearly **rigged**—even if you “win,” the target sum increases, making it impossible to profit.
@@ -115,15 +115,14 @@ My initial thoughts when solving this challenge were to check common **Flask/Wer
 
 I tried looking for Werkzeug 3.0.4 vulnerabilities but was faced with only a single path traversal one that works only on Windows boxes with python version prior to 3.11. This app is not vulnerable since it has 3.13 running, so the other option was flask.
 
-# Further Recon
+## Further Recon
 
 Reflecting on the CSV export feature, we note that **username** and **email** values are injected directly into a template that generates the CSV.
 
 Knowing that flask uses Jinja2 as its templating engine, we can test this as follows:
 
 ```
-POST /register
-username={{ 7*7 }}&email={% if True %}AA{% endif %}&//other fileds...
+username={{ 7*7 }}&email={% if True %}AA{% endif %}&//other fileds in /register...
 ```
 
 We observe the following CSV:
@@ -160,7 +159,7 @@ STATS,"{\"played\": 0, \"avg_gain\": 0}"
 
 And it worked! We have an SSTI via split-field payloads.
 
-# Task Analysis
+## Task Analysis
 
 Diving deeper into this attack vector, we now know that separating our payload into two
 parts (`username` holding the first and `email` the second) will grant us SSTI.
@@ -209,7 +208,7 @@ This gives the illusion of a graph, where the root object is `object`, and every
 So by climbing the inheritance ladder, we can reach the top, and go to another bottom,
 that is importing a malicious builtin module, say `subprocess`, to achieve RCE.
 
-# Exploitation
+## Exploitation
 
 Armed with this newfound knowledge, we can exploit the vulnerability in two ways:
 
@@ -259,7 +258,7 @@ login_data = {
 }
 session.post(url + '/login', data=login_data)
 
-# Now we'll export the .csv file with the flag in it
+## Now we'll export the .csv file with the flag in it
 resp = session.get(url + '/export')
 print(resp.text)
 ```
@@ -277,7 +276,7 @@ Flag is: `N0PS{s5T1_4veRywh3R3!!}`
 
 ---
 
-# Conclusions
+## Conclusions
 
 1. **Leaking Templating Context:** Even seemingly simple CSV exports can be dangerous if they use Jinja2 without proper sanitization.
 2. **Split-Field Payloads:** Sanitization that strips full `{{ ... }}` blocks can be bypassed by splitting the payload across multiple inputs.
@@ -290,7 +289,7 @@ Flag is: `N0PS{s5T1_4veRywh3R3!!}`
 
 ---
 
-# References
+## References
 
 * **Flask Templating (Jinja2):** [https://flask.palletsprojects.com/en/stable/templating/](https://flask.palletsprojects.com/en/stable/templating/)
 * **Jinja2 Documentation:** [https://jinja.palletsprojects.com/en/stable/templates/](https://jinja.palletsprojects.com/en/stable/templates/)
