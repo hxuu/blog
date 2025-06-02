@@ -242,7 +242,7 @@ To break it down for you:
 
 * Everything in Python is an object.
 
-This means that a simple string like 'abc' is is fact an instance of the `str` object, and the latter
+This means that a simple string like 'abc' is in fact an instance of the `str` object, and the latter
 inherits from other objects all the way to the root object: `object`.
 
 This gives the illusion of a graph, where the root object is `object`, and every other object can be accessed from there,
@@ -250,6 +250,8 @@ This gives the illusion of a graph, where the root object is `object`, and every
 
 So by climbing the inheritance ladder, we can reach the top, and go to another bottom,
 that is importing a malicious builtin module, say `subprocess`, to achieve RCE.
+
+![python inheritance tree diagram](/blog/images/2025-06-02-21-21-57.png)
 
 ## Exploitation
 
@@ -271,7 +273,10 @@ we know the python version used by the app, we can download it locally and test 
 ```
 
 This is cleaner and more "determinstic" if you will. The request object has access to the
-application method, which in turn has the builtin functions among its global variables (as with most python objects, check [meta programming in python]()).
+application method, which in turn has the builtin functions among its global variables (as with most python objects, check [meta programming in python](https://developer.ibm.com/tutorials/ba-metaprogramming-python/)).
+
+> I wrote another writeup [here](https://hxuu.github.io/blog/ctf/n00bz24/file-sharing-portal/) where I discuss this method further
+> including what `__globals__`, `__builtins__` and more mean. Refer to it for further details
 
 ---
 
