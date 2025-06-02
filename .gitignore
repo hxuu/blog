@@ -22,3 +22,4 @@ Thumbs.db          # Windows specific
 .idea/              # IntelliJ IDEA
 .vscode/            # VS Code
 .cache             # General cache files
+public/
