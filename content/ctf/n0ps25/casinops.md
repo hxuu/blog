@@ -73,7 +73,50 @@ Since the UI doesn't show much, let's dive into the page source:
 ### Page Source (Ctrl+U)
 
 ```html
-condensed version of the source (including the login/register, and main game)
+<!-- Condensed version of the source (including the login/register, and main game) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+<body>
+	<nav>
+	<ul>
+        <li><a href="/logout">Logout</a></li>
+        <li><a href="/export">Export account data</a></li>
+	</ul>
+	</nav>
+
+	<div id="app">
+
+	<script>(function () {
+
+		// Mapping
+		const emojiMap = {
+		  "7": "7️⃣​",
+		  "100": "💯",
+		  "coin": "🪙​",
+		  "rocket": "🚀​",
+		  "party": "🎉​",
+		  "skull": "💀"
+		};
+
+		function spin() {
+		  fetch("/play", {
+			method: "GET",
+			credentials: "include",
+		  })
+		  .then(response => {
+			if (response.status === 401) {
+			  window.location.href = "/login";
+			  return;
+			}
+			return response.json();
+		  })
+	</script>
+</body>
+
+</html>
 ```
 
 We notice 4 endpoints corresponding to the visible features:
@@ -122,7 +165,7 @@ Reflecting on the CSV export feature, we note that **username** and **email** va
 Knowing that flask uses Jinja2 as its templating engine, we can test this as follows:
 
 ```
-username={{ 7*7 }}&email={% if True %}AA{% endif %}&//other fileds in /register...
+username={{ 7*7 }}&email={% if True %}AA{% endif %}&password=something
 ```
 
 We observe the following CSV:
