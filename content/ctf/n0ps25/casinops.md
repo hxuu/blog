@@ -191,7 +191,7 @@ But after hours of searching, a new idea dawned on me: Do we need the payload to
 What if the backend is checking for the whole opening/closing (`{{}}|{%%}`) combination, but not part of it? Let's test:
 
 ```html
-username={{&email=7*7}}AA{% endif %}
+username={{&email=7*7}}
 ```
 
 The output this time is:
