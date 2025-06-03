@@ -165,7 +165,7 @@ I tried looking for Werkzeug 3.0.4 vulnerabilities but was faced with only a sin
 
 Reflecting on the CSV export feature, we note that **username** and **email** values are injected directly into a template that generates the CSV.
 
-Knowing that flask uses Jinja2 as its templating engine, we can test this as follows:
+Knowing that flask uses Jinja2 as its templating engine, we can test for [SSTI](https://portswigger.net/web-security/server-side-template-injection) as follows:
 
 ```
 username={{ 7*7 }}&email={% if True %}AA{% endif %}&password=something
