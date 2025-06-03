@@ -134,11 +134,14 @@ By observing requests and responses, we see:
 
 ![server reveiling request](/blog/images/2025-06-02-16-19-45.png)
 
-- The `Server` **header** reveals **Werkzeug**, a Python WSGI utility library commonly used with Flask.
+- The `Server` **header** reveals **Werkzeug**, a Python [WSGI](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface) utility library commonly used with Flask.
+
+> [WSGI](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface) is created for different python web servers
+> to share a common interface to web application development
 
 ![session cookie response](/blog/images/2025-06-02-16-21-21.png)
 
-- The `Set-Cookie` **header** after login shows a session cookie that appears to be a **Flask-signed** cookie (using itsdangerous).
+- The `Set-Cookie` **header** after login shows a session cookie that appears to be a **Flask-signed** cookie (using [itsdangerous](https://itsdangerous.palletsprojects.com/en/stable/) library).
 
 > **Flask-Unsign** can decode these cookies to confirm a Flask backend:
 >
