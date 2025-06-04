@@ -33,7 +33,7 @@ editPost:
 * Category: Web Exploitation
 * Points: 484 (21 solves)
 * Description: Have you ever been to the Casino of Webtopia yet? Well, we count on you to find out what it hides!
-* Authors: [Sto](https://linktr.ee/yourssto), [algorab](https://www.nops.re/)
+* Authors: [Sto](https://linktr.ee/yourssto), [algorab](https://algorab.fr/me)
 * Source code: NONE
 
 [Link to the challenge (I'll update it to the source after the challenge is down)](https://nopsctf-casino.chals.io/login?next=%2F)
