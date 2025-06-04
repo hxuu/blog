@@ -4,7 +4,7 @@
 
 [x] 1. do your review of the references you used to solve the challenge.
 
-[ ] 2. who is your audience?
+[x] 2. who is your audience?
 => the kind of article: a ctf writeup (how a player solved solved a challenge)
 => it is intented for ctf participants that couldn't solve the challenge, BUT always the reviewers
 => Reviewers of CTF writeups typically look for clarity, correctness, reproducibility, insight, brevity, originality, and style
@@ -17,9 +17,9 @@
 
 ### The algorithm
 
-[ ] 1. just get started
+[x] 1. just get started
 
-[ ] 2. work from an outline
+[x] 2. work from an outline
 => Challenge overview (description, title, category...etc)
 => TL;DR (summary of the whole challenge, at least 50 words but not more than 100)
 => Initial analysis (application wide analysis - looking at the app as a whole and hinting at a suspection)
@@ -28,14 +28,14 @@
 => Conclusions (what was learned from this challenge - in list format)
 => References (links to more detail)
 
-[ ] 3. do not write the introduction-like stuff now! (it induces procrastination)
+[x] 3. do not write the introduction-like stuff now! (it induces procrastination)
 => The easiest part to write is the experimental (actual code, exploitation)
 
-[ ] 5. move forward to other sections except the introduction. analyze and review the task analysis and exploitations.
+[x] 5. move forward to other sections except the introduction. analyze and review the task analysis and exploitations.
 
-[ ] 6. Produce the conclusions: in a list format.
+[x] 6. Produce the conclusions: in a list format.
 
-[ ] 7. do the introduction:
+[x] 7. do the introduction:
 => Why was i drawn into the task analysis topic? 'why did seem fishy in the app?'
 => Give the reader sufficient background to clear it for him why you did what you did.
 
