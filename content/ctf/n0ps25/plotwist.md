@@ -50,7 +50,7 @@ This writeup covers the solution to the **"Plotwist"** web challenge from N0PS C
 which involves bypassing NGINX access controls to reach a restricted API endpoint.
 
 We exploit an **h2c smuggling** vulnerability by crafting an HTTP/2 cleartext request using a custom Python client.
-This allows them to bypass the proxy and access `/api/noopsy`. The final step uses a clever
+This allows us to bypass the proxy and access `/api/noopsy`. The final step uses a clever
 shell expansion trick to read the flag from a filtered shell environment.
 
 ## Initial Analysis
