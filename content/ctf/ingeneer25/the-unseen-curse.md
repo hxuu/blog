@@ -188,7 +188,7 @@ if __name__ == "__main__":
         result = new_reasoning_solver(A, B, X, Y)
         results.append(result)
 
-    print("Flag:", f"1ng3neer2k25{{{''.join(results)}}}")
+    print("flag:", f"1ng3neer2k25{{{''.join(results)}}}")
 ```
 
 Each result becomes a digit in the final flag. then the final flag is: `1ng3neer2k25{5211322412311434132}`
