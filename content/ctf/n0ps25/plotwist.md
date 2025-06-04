@@ -195,7 +195,7 @@ def create_tcp_connection(proxy_url):
 Here we establish a TCP connection using Python's [socket](https://docs.python.org/3/library/socket.html) library.
 
 > We point to a TCP connection/socket using file descriptors (as everything in linux is a file), hence
-why we're return the socket.
+why we return the socket.
 
 #### `2. Sending the Initial HTTP/1.1 Request`
 
