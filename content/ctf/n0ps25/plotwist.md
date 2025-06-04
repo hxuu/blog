@@ -404,7 +404,7 @@ N0PS{4nD_I_FE3l_50m37h1nG_5o_wR0nG_d01nG_7h3_r18h7_7h1nG}
 
 Flag is: `N0PS{4nD_I_FE3l_50m37h1nG_5o_wR0nG_d01nG_7h3_r18h7_7h1nG}`
 
-![primeagen](https://media1.tenor.com/m/hYU0XdvEzmAAAAAC/theprimeagen-primeagen.gif)
+![Primeagen](https://media1.tenor.com/m/hYU0XdvEzmAAAAAC/theprimeagen-primeagen.gif)
 
 ## Conclusions
 
