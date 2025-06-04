@@ -72,6 +72,8 @@ Checking the response header of the requests, we see that the backend is behind
 a [reverse proxy](https://www.youtube.com/watch?v=ozhe__GdWC8&t=4s&pp=ygUXd2hhdCBpcyBhIHJldmVyc2UgcHJveHk%3D), **NGINX**, specifically.
 So he, might be the one dropping our request before it ever reaches the backend.
 
+![server response header](/blog/images/2025-06-04-17-52-14.png)
+
 This **asymmetric behavior** suggests that the proxy (NGINX) and the backend may handle requests differently.
 
 This could mean:
