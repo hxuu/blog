@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Idekctf on hxuu</title>
+    <link>https://hxuu.github.io/blog/tags/idekctf/</link>
+    <description>Recent content in Idekctf on hxuu</description>
+    <image>
+      <title>hxuu</title>
+      <url>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Aug 2024 22:22:37 +0100</lastBuildDate>
+    <atom:link href="https://hxuu.github.io/blog/tags/idekctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IdekCTF 24 - Hello</title>
+      <link>https://hxuu.github.io/blog/ctf/idek24/hello/</link>
+      <pubDate>Sun, 18 Aug 2024 22:22:37 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/idek24/hello/</guid>
+      <description>CTF write-up for Hello</description>
+    </item>
+  </channel>
+</rss>

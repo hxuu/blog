@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tutorial on hxuu</title>
+    <link>https://hxuu.github.io/blog/tags/tutorial/</link>
+    <description>Recent content in Tutorial on hxuu</description>
+    <image>
+      <title>hxuu</title>
+      <url>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2024 16:17:28 +0100</lastBuildDate>
+    <atom:link href="https://hxuu.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Packettracer</title>
+      <link>https://hxuu.github.io/blog/misc/packettracer/</link>
+      <pubDate>Mon, 09 Dec 2024 16:17:28 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/misc/packettracer/</guid>
+      <description>An in-depth guide on Packettracer</description>
+    </item>
+    <item>
+      <title>Reviewing Rfc-1058</title>
+      <link>https://hxuu.github.io/blog/misc/rfc1058/</link>
+      <pubDate>Thu, 05 Dec 2024 08:14:11 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/misc/rfc1058/</guid>
+      <description>A Brief Overview of The Routing Information Protocol</description>
+    </item>
+    <item>
+      <title>Looking at the Top Command - But More...</title>
+      <link>https://hxuu.github.io/blog/misc/looking-at-the-top-command/</link>
+      <pubDate>Wed, 16 Oct 2024 20:21:55 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/misc/looking-at-the-top-command/</guid>
+      <description>An in-depth guide on Looking at the Top Command</description>
+    </item>
+    <item>
+      <title>X11 - A bird&#39;s eye view</title>
+      <link>https://hxuu.github.io/blog/misc/x11/</link>
+      <pubDate>Fri, 11 Oct 2024 10:10:25 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/misc/x11/</guid>
+      <description>A quick guide on X11</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ctfs on hxuu</title>
+    <link>https://hxuu.github.io/blog/ctf/</link>
+    <description>Recent content in Ctfs on hxuu</description>
+    <image>
+      <title>hxuu</title>
+      <url>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2025 11:09:15 +0100</lastBuildDate>
+    <atom:link href="https://hxuu.github.io/blog/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>N0PS25: Writeup for Web/Plotwist</title>
+      <link>https://hxuu.github.io/blog/ctf/n0ps25/plotwist/</link>
+      <pubDate>Wed, 04 Jun 2025 11:09:15 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/n0ps25/plotwist/</guid>
+      <description>CTF write-up for Plotwist</description>
+    </item>
+    <item>
+      <title>N0PS25: Writeup for Web/CasinOps</title>
+      <link>https://hxuu.github.io/blog/ctf/n0ps25/casinops/</link>
+      <pubDate>Mon, 02 Jun 2025 14:28:42 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/n0ps25/casinops/</guid>
+      <description>CTF write-up for Casinops</description>
+    </item>
+    <item>
+      <title>Ingeneer25 (Problem Solving) - The Unseen Curse</title>
+      <link>https://hxuu.github.io/blog/ctf/ingeneer25/the-unseen-curse/</link>
+      <pubDate>Thu, 22 May 2025 19:59:22 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/ingeneer25/the-unseen-curse/</guid>
+      <description>Challenge write-up for The Unseen Curse, problem solving challenge.</description>
+    </item>
+    <item>
+      <title>Dice25: Writeup for web/pyramid</title>
+      <link>https://hxuu.github.io/blog/ctf/dice25/pyramid/</link>
+      <pubDate>Tue, 15 Apr 2025 10:42:39 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/dice25/pyramid/</guid>
+      <description>CTF write-up for Pyramid</description>
+    </item>
+    <item>
+      <title>Dice25: Writeup for web/cookie-recipes-v3</title>
+      <link>https://hxuu.github.io/blog/ctf/dice25/cookie-recipes-v3/</link>
+      <pubDate>Sat, 12 Apr 2025 12:18:04 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/dice25/cookie-recipes-v3/</guid>
+      <description>CTF write-up for Cookie Recipes V3</description>
+    </item>
+    <item>
+      <title>UTCTF25 - Number Champ (WEB)</title>
+      <link>https://hxuu.github.io/blog/ctf/utctf/number-champ/</link>
+      <pubDate>Tue, 18 Mar 2025 11:14:27 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/utctf/number-champ/</guid>
+      <description>CTF write-up for Number Champ</description>
+    </item>
+    <item>
+      <title>PearlCTF 25 - Web/Tic-Tac-Toe</title>
+      <link>https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/</link>
+      <pubDate>Sat, 08 Mar 2025 22:13:34 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/pearl25/tic-tac-toe/</guid>
+      <description>CTF write-up for Ttt</description>
+    </item>
+    <item>
+      <title>CyberSpace24 - Trendz</title>
+      <link>https://hxuu.github.io/blog/ctf/cyberspace24/trendz/</link>
+      <pubDate>Mon, 02 Sep 2024 11:51:43 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/cyberspace24/trendz/</guid>
+      <description>CTF write-up for Trendz</description>
+    </item>
+    <item>
+      <title>CyberSpace24 - Trendzz</title>
+      <link>https://hxuu.github.io/blog/ctf/cyberspace24/trendzz/</link>
+      <pubDate>Mon, 02 Sep 2024 11:13:20 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/cyberspace24/trendzz/</guid>
+      <description>CTF write-up for Trendzz</description>
+    </item>
+    <item>
+      <title>CyberSpace24 - Feature Unlocked</title>
+      <link>https://hxuu.github.io/blog/ctf/cyberspace24/feature-unlocked/</link>
+      <pubDate>Mon, 02 Sep 2024 10:28:44 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/cyberspace24/feature-unlocked/</guid>
+      <description>CTF write-up for Feature Unlocked</description>
+    </item>
+    <item>
+      <title>SEKAI 24 - Funny Lfr</title>
+      <link>https://hxuu.github.io/blog/ctf/sekai24/funny-lfr/</link>
+      <pubDate>Fri, 30 Aug 2024 11:01:21 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/sekai24/funny-lfr/</guid>
+      <description>CTF write-up for Funny Lfr</description>
+    </item>
+    <item>
+      <title>SEKAI 24 - Intruder</title>
+      <link>https://hxuu.github.io/blog/ctf/sekai24/intruder/</link>
+      <pubDate>Tue, 27 Aug 2024 19:14:03 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/sekai24/intruder/</guid>
+      <description>CTF write-up for Intruder</description>
+    </item>
+    <item>
+      <title>IdekCTF 24 - Hello</title>
+      <link>https://hxuu.github.io/blog/ctf/idek24/hello/</link>
+      <pubDate>Sun, 18 Aug 2024 22:22:37 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/idek24/hello/</guid>
+      <description>CTF write-up for Hello</description>
+    </item>
+    <item>
+      <title>LITCTF24 - Traversed</title>
+      <link>https://hxuu.github.io/blog/ctf/lit24/traversed/</link>
+      <pubDate>Tue, 13 Aug 2024 19:05:10 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/lit24/traversed/</guid>
+      <description>CTF write-up for Traversed</description>
+    </item>
+    <item>
+      <title>LITCTF24 - Jwt 2</title>
+      <link>https://hxuu.github.io/blog/ctf/lit24/jwt-2/</link>
+      <pubDate>Tue, 13 Aug 2024 18:49:06 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/lit24/jwt-2/</guid>
+      <description>CTF write-up for Jwt 2</description>
+    </item>
+    <item>
+      <title>LITCTF24 - Jwt 1</title>
+      <link>https://hxuu.github.io/blog/ctf/lit24/jwt-1/</link>
+      <pubDate>Tue, 13 Aug 2024 18:34:00 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/lit24/jwt-1/</guid>
+      <description>CTF write-up for Jwt 1</description>
+    </item>
+    <item>
+      <title>LITCTF24 - Anti Inspect</title>
+      <link>https://hxuu.github.io/blog/ctf/lit24/anti-inspect/</link>
+      <pubDate>Tue, 13 Aug 2024 17:55:33 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/lit24/anti-inspect/</guid>
+      <description>CTF write-up for Anti Inspect</description>
+    </item>
+    <item>
+      <title>n00bzCTF - File Sharing Portal</title>
+      <link>https://hxuu.github.io/blog/ctf/n00bz24/file-sharing-portal/</link>
+      <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/n00bz24/file-sharing-portal/</guid>
+      <description>CTF write-up for File Sharing Portal</description>
+    </item>
+    <item>
+      <title>Ctfs - A Beginner&#39;s Guide</title>
+      <link>https://hxuu.github.io/blog/ctf/ctfs-a-beginner-guide/</link>
+      <pubDate>Thu, 08 Aug 2024 14:08:49 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/ctfs-a-beginner-guide/</guid>
+      <description>Breaking into CTFs: A Beginner&amp;#39;s Guide to Capture the Flag Competitions</description>
+    </item>
+  </channel>
+</rss>

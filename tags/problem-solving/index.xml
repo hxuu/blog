@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Problem-Solving on hxuu</title>
+    <link>https://hxuu.github.io/blog/tags/problem-solving/</link>
+    <description>Recent content in Problem-Solving on hxuu</description>
+    <image>
+      <title>hxuu</title>
+      <url>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hxuu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 May 2025 19:59:22 +0100</lastBuildDate>
+    <atom:link href="https://hxuu.github.io/blog/tags/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ingeneer25 (Problem Solving) - The Unseen Curse</title>
+      <link>https://hxuu.github.io/blog/ctf/ingeneer25/the-unseen-curse/</link>
+      <pubDate>Thu, 22 May 2025 19:59:22 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/ctf/ingeneer25/the-unseen-curse/</guid>
+      <description>Challenge write-up for The Unseen Curse, problem solving challenge.</description>
+    </item>
+  </channel>
+</rss>
