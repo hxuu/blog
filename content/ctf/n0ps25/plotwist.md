@@ -224,8 +224,6 @@ wants to use the HTTP2-Settings for upgrade negotiation.
 Assuming the latter request gave a `101 Switching Protocols` status code. Let's now
 send our HTTP/2 requests.
 
----
-
 HTTP/2 is a binary framed protocol. In simple terms, it doesn't depend on raw text
 data like Http/1.x do (\r\n to be precise). So data is encapsulated in clear binary
 format. The object that handles this encapsulation is `H2Connection`.
