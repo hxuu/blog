@@ -36,7 +36,7 @@ editPost:
 * Authors: [Sto](https://linktr.ee/yourssto), [algorab](https://algorab.fr/me)
 * Source code: NONE
 
-[Link to the challenge (I'll update it to the source after the challenge is down)](https://nopsctf-casino.chals.io/login?next=%2F)
+[Link to the challenge (I'll update it to the source after the challenge is down)](https://github.com/N0PSctf/N0PSctf-2025/tree/main/web/casino)
 
 ## TL;DR
 

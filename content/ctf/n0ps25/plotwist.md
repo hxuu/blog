@@ -42,7 +42,7 @@ editPost:
 * Authors: [Sto](https://linktr.ee/yourssto)
 * Source code: NONE
 
-[This challenge is an instance based challenge (source here after it's published)](https://nopsctf-casino.chals.io/login?next=%2F)
+[This challenge is an instance based challenge (source here after it's published)](https://github.com/N0PSctf/N0PSctf-2025/tree/main/web/plotwist)
 
 ## TL;DR
 
