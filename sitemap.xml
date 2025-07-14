@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hxuu.github.io/blog/ctf/l3ak25/certay/</loc>
-    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
-  </url><url>
     <loc>https://hxuu.github.io/blog/tags/ctf/</loc>
     <lastmod>2025-07-14T09:31:39+01:00</lastmod>
   </url><url>
@@ -12,6 +9,9 @@
     <lastmod>2025-07-14T09:31:39+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/</loc>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/l3ak25/certay/</loc>
     <lastmod>2025-07-14T09:31:39+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/tags/</loc>
