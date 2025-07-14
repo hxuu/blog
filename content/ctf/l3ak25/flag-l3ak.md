@@ -9,7 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for Flag L3ak"
-summary: ""
+summary: "The application is vulnerable to a side-channel attack known as XS-Search, a subclass of XS-Leaks. By observing differences in server responses based on 3-character search queries, we reconstructed the flag one character at a time."
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
