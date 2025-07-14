@@ -27,16 +27,16 @@ after that comes the analytic part of the job, but NOT before the first.
 
 ### The algorithm
 
-[ ] 1. just get started
+[x] 1. just get started
 
-[ ] 2. work from an outline
-=> [ ] Challenge overview (description, title, category...etc)
-=> [ ] TL;DR (summary of the whole challenge, at least 50 words but not more than 100)
-=> [ ] Initial analysis (application wide analysis - looking at the app as a whole and hinting at a suspection)
-=> [ ] Task analysis (diving deeper into that single point of failure or of vulnerability)
-=> [ ] Exploitation (crafting the payload and delivering the attack)
-=> [ ] Conclusions (what was learned from this challenge - in list format)
-=> [ ] References (links to more detail)
+[x] 2. work from an outline
+=> [x] Challenge overview (description, title, category...etc)
+=> [x] TL;DR (summary of the whole challenge, at least 50 words but not more than 100)
+=> [x] Initial analysis (application wide analysis - looking at the app as a whole and hinting at a suspection)
+=> [x] Task analysis (diving deeper into that single point of failure or of vulnerability)
+=> [x] Exploitation (crafting the payload and delivering the attack)
+=> [x] Conclusions (what was learned from this challenge - in list format)
+=> [x] References (links to more detail)
 
 [ ] 3. do not write the introduction-like stuff now! (it induces procrastination)
 => The easiest part to write is the experimental (actual code, exploitation)
