@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hxuu.github.io/blog/ctf/l3ak25/certay/</loc>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
+  </url><url>
     <loc>https://hxuu.github.io/blog/tags/ctf/</loc>
-    <lastmod>2025-06-04T11:09:15+01:00</lastmod>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/ctf/</loc>
-    <lastmod>2025-06-04T11:09:15+01:00</lastmod>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/</loc>
-    <lastmod>2025-06-04T11:09:15+01:00</lastmod>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/</loc>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/write-up/</loc>
+    <lastmod>2025-07-14T09:31:39+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/tags/l3ak/</loc>
+    <lastmod>2025-07-14T09:31:33+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/l3ak25/window-of-opportunity/</loc>
+    <lastmod>2025-07-14T09:31:33+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/l3ak25/notorious-note/</loc>
+    <lastmod>2025-07-14T09:31:13+01:00</lastmod>
+  </url><url>
+    <loc>https://hxuu.github.io/blog/ctf/l3ak25/flag-l3ak/</loc>
+    <lastmod>2025-07-14T09:31:01+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/ctf/n0ps25/plotwist/</loc>
     <lastmod>2025-06-04T11:09:15+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/tags/nops/</loc>
-    <lastmod>2025-06-04T11:09:15+01:00</lastmod>
-  </url><url>
-    <loc>https://hxuu.github.io/blog/tags/</loc>
-    <lastmod>2025-06-04T11:09:15+01:00</lastmod>
-  </url><url>
-    <loc>https://hxuu.github.io/blog/tags/write-up/</loc>
     <lastmod>2025-06-04T11:09:15+01:00</lastmod>
   </url><url>
     <loc>https://hxuu.github.io/blog/ctf/n0ps25/casinops/</loc>
