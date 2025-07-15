@@ -39,7 +39,7 @@ editPost:
 
 * Author: [S1mple](https://discord.com/users/621008731773206538)
 
-[Challenge source (will update this when the ctf ends for reproducibility)](https://ctf.l3ak.team/files/d5d05524a7bccce4d6d0133d32f1a339/dist.zip?token=eyJ1c2VyX2lkIjoyMjE0LCJ0ZWFtX2lkIjoxMDU5LCJmaWxlX2lkIjo0OH0.aHTF1g.JEZMO0_qlBTX5pdghp8AhZxwe5Q)
+[Challenge source (will update this when the ctf ends for reproducibility)](https://ctf.l3ak.team/files/d5d05524a7bccce4d6d0133d32f1a339/dist.zip?token=eyJ1c2VyX2lkIjoyMjE0LCJ0ZWFtX2lkIjoxMDU5LCJmaWxlX2lkIjo0OH0.aHY1-A._984WNDu9vdIYD8iVlsPAAOhMQw)
 
 ## TL;DR
 
