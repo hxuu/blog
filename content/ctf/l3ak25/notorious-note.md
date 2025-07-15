@@ -128,9 +128,9 @@ To understand where things could go wrong in the parsing logic, we first need to
 | ![Object Prototype Chain Illustration](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasset.jarombek.com%2Fposts%2F6-9-18-prototype-traverse.png&f=1&nofb=1&ipt=a552ce542ac950a53a6bf7fc01d189ee437ef7fdeffc645c247b80949df53e58) |
 | Image taken from [here](https://www.vrogue.co/) |
 
-Programmers manipulate data constantly, and in JavaScript, that data is represented by language values. These values belong to language types, things like Number, String, Boolean, and of course, Object.
+Programmers manipulate data constantly, and in JavaScript, that data is represented by **language values**. These values belong to **language types**, things like `Number`, `String`, `Boolean`, and of course, `Object`.
 
-Objects are among those language types as well. They're essentially a dynamic collection of properties
+Objects are among those language types as well. They're essentially a dynamic collection of *properties*
 most often defined like this:
 
 ```js
@@ -139,32 +139,31 @@ const obj = { key: "value" }
 
 These properties come in two flavors:
 
-* Data properties: typical key-value pairs (obj.key = value) where the value is another language value.
-* Accessor properties: You can think of them as key-value pairs where the value is a function that returns a language value.
+* **Data properties:** typical key-value pairs (`obj.key = value`) where the value is another language value.
+* **Accessor properties:** You can think of them as key-value pairs where the value is a function that returns a language value.
 
-It should be noted that when an object is created, the properties you assign aren't
-the only ones created, there are other properties like get and set which define
-retrieval and assignment respectively, there are also [[enumerable]] property which
-tell whether the object can be used in a for in enumeration...etc.
+*It should be noted* that when an object is created, the properties you assign aren't the only ones created, there are other properties like `[[Get]]` and `[[Set]]` which define retrieval and assignment respectively, there is also the `[[Enumerable]]` property which tells whether the object can be used in a **for-in** enumeration...etc.
 
-> Small detour: functions are objects too. What makes them callable is that they implement special properties like [[Call]] and [[Set]]. So yeah, your functions are just fancy objects with extra gear bolted on.
+{{< notice tip >}}
+Small detour: functions are objects too. What makes them callable is that they implement special properties like [[Call]] and [[Set]]. So yeah, your functions are just fancy objects with extra gear bolted on.
+{{< /notice >}}
 
 ### Now Let’s Talk Behavior
 
-Every JavaScript object follows a set of behaviors, defined in the ECMAScript spec as internal methods.
+Every JavaScript object follows a set of behaviors, defined in the [ECMAScript spec](https://tc39.es/ecma262/multipage/) as internal methods.
 Internal methods are a set of algorithms that give objects their semantics.
 
-* These methods operate on internal data called slots, think of them as the object's hidden storage for metadata and mechanics.
-* They're polymorphic: just because two objects have a [[Get]] doesn't mean they behave the same. Each can have its own internal logic.
-* And they’re mandatory: if you’re an object in JS-land, you must implement certain methods to be considered “valid.”
+* These methods operate on internal data called **slots**, think of them as the object's hidden storage for metadata and mechanics.
+* They're **polymorphic**: just because two objects have a `[[Get]]` doesn't mean they behave the same. Each can have its own internal logic.
+* And they’re **mandatory**: if you’re an object in JS-land, you must implement certain methods to be considered “valid.”
 
-One of the most important ones (and the one that will matter to us) is [[GetPrototypeOf]].
+One of the most important ones (and the one that will matter to us) is **`[[GetPrototypeOf]]`**.
 
 ### Prototypes and Inheritance
 
-Let’s now look at how JavaScript handles inheritance, the magic behind why one object can access properties it never explicitly defined.
+Let’s now look at how JavaScript handles inheritance, the *magic* behind why one object can access properties it never explicitly defined.
 
-Every JavaScript object has an internal method called `[[GetPrototypeOf]]`. As the name implies, this returns the object’s prototype, that is, the object it inherits from.
+Every JavaScript object has an internal method called `[[GetPrototypeOf]]`. As the name implies, this returns the object’s **prototype**, that is, the object it inherits from.
 
 But wait:
 **What is this prototype object? And what exactly are inherited properties, mhmmm?**
@@ -173,11 +172,11 @@ But wait:
 
 An **inherited property** is one that isn't present directly on an object, but exists on its prototype (or somewhere up the prototype chain). That means the prototype is simply the object returned by `GetPrototypeOf()`.
 
-> Every object has an internal slot called `[[Prototype]]`. It’s either `null` or another object. That "other object" becomes the fallback, if your current object is missing a property, JavaScript checks there.
+> Every object has an internal slot called `[[Prototype]]`. It’s either `null` or another object. That "other object" becomes the fallback. If your current object is missing a property, JavaScript checks there.
 
 So if a property `P` is missing from some object `obj`, but exists on `obj.[[Prototype]]`, then accessing `obj.P` will still succeed, thanks to inheritance.
 
-> Whether or not this inherited access works depends on a few internal details, like whether the object is extensible (`[[Extensible]] = true`), and whether the property you’re trying to inherit is writable or enumerable. The full logic lives in the spec.
+> Whether or not this inherited access works depends on a few internal details, like whether the object is extensible (`[[Extensible]] = true`), and whether the property you’re trying to inherit is **writable** or **enumerable**. The full logic lives in the spec.
 
 ---
 
@@ -195,15 +194,17 @@ obj.__proto__ = { sneaky: 'value' };
 
 Now, even though `obj` has no own property named `sneaky`, accessing `obj.sneaky` will return `"value"`, because it was inherited from the newly assigned prototype.
 
+![prototype chain behavior](/blog/images/2025-07-15-12-27-55.png)
+
 > The reason this works is that `__proto__` has a `[[Set]]` internal method, meaning assignments to it are interpreted as prototype mutations, not property additions.
 
 All we have to do now is identify which obj we can poison, and whether the application ever passes that poisoned structure into a vulnerable context.
 
-> Spoiler: it does. Let’s take a closer look at how sanitize-html interacts with this.
+*Spoiler: it does~*
 
 ## Exploitation
 
-Armed with this knowledge, the next step is to figure out where our parsed query object ends up — and whether it’s fed into a sensitive sink like `sanitize-html`.
+Armed with this knowledge, the next step is to figure out where our parsed query object ends up, and whether it’s fed into a sensitive sink like `sanitize-html`.
 
 Let’s start by inspecting the default configuration of `sanitize-html`. A quick search in the codebase shows the following:
 
