@@ -1,5 +1,5 @@
 ---
-title: "L3AK25: Writeup for Web/Flag_L3ak"
+title: "L3AK25: Writeup for Web/Flag-L3ak"
 date: 2025-07-14T09:31:01+01:00
 tags: ["ctf", "write-up", "l3ak"]
 author: "hxuu"
