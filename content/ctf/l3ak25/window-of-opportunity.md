@@ -9,7 +9,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for Window of Opportunity"
-summary: ""
+summary: "Exploits `window.opener` with SOP disabled to bypass CSRF protections and read sensitive data from the admin's tab via DOM access. "
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
