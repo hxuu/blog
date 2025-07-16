@@ -35,9 +35,11 @@ editPost:
 
 > The admin bot loves opening URLs. I implemented CSRF protection, but it seems as though I'm forgetting something. Can you find the issue?
 
+![challenge description](/blog/images/2025-07-16-21-42-14.png)
+
 * Author: [p._.k](https://discord.com/users/1267886144306282621)
 
-[Challenge source (will update this when the ctf ends for reproducibility)](https://ctf.l3ak.team/files/d5d05524a7bccce4d6d0133d32f1a339/dist.zip?token=eyJ1c2VyX2lkIjoyMjE0LCJ0ZWFtX2lkIjoxMDU5LCJmaWxlX2lkIjo0OH0.aHe5fg.wELY6i-Bvn7qJ5SBESYJhby0QqI)
+[Challenge source (will update this when the ctf ends for reproducibility)](https://ctf.l3ak.team/files/58130345fb4a47991e6e300c2e1d700f/Window_of_Opportunity.zip?token=eyJ1c2VyX2lkIjoyMjE0LCJ0ZWFtX2lkIjoxMDU5LCJmaWxlX2lkIjo4M30.aHgOmQ.BQUqPgdvlVETRHRpUBTPnRKgOeo)
 
 ## TL;DR
 
@@ -433,17 +435,27 @@ Here is the flag: `L3AK{T1gh7_CSRF_y3t_w1nd0w_0p3n3r_w1n5!}`
 
 ## References
 
-1. https://datatracker.ietf.org/doc/html/rfc6454
-2. https://developer.mozilla.org/en-US/docs/Web/API/Window
-3. https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security
-4. https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
-5. https://portswigger.net/web-security/cors/same-origin-policy
-6. https://web.archive.org/web/20170717163022/https://www.w3.org/Security/wiki/Same_Origin_Policy
-7. https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers#fetch_metadata_request_headers
-8. https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet.html#fetch-metadata-sec-fetch-dest
-9. https://web.dev/articles/samesite-cookies-explained
-10. https://portswigger.net/web-security/csrf
-11. https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses
-12. https://developer.mozilla.org/en-US/docs/Web/API/Document/body
-13. https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener
-14. https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security
+### **Same-Origin Policy & Browser Security**
+
+1. **[RFC 6454 – The Web Origin Concept (IETF)](https://datatracker.ietf.org/doc/html/rfc6454)**
+2. **[MDN – Same-Origin Policy Overview](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)**
+3. **[PortSwigger – Same-Origin Policy](https://portswigger.net/web-security/cors/same-origin-policy)**
+4. **[W3C Wiki – Same-Origin Policy (Archived)](https://web.archive.org/web/20170717163022/https://www.w3.org/Security/wiki/Same_Origin_Policy)**
+5. **[Peter Beverloo’s Chrome Switches – `--disable-web-security`](https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security)**
+
+### **Cross-Site Request Forgery (CSRF)**
+
+7. **[PortSwigger – CSRF Overview](https://portswigger.net/web-security/csrf)**
+8. **[PortSwigger – Bypassing Referer-Based CSRF Defenses](https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses)**
+
+### **Cookies, Metadata, and Headers**
+
+9. **[web.dev – SameSite Cookies Explained](https://web.dev/articles/samesite-cookies-explained)**
+10. **[MDN – Fetch Metadata Request Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers#fetch_metadata_request_headers)**
+11. **[OWASP – XS-Leaks Cheat Sheet (Fetch Metadata)](https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet.html#fetch-metadata-sec-fetch-dest)**
+
+### **Browser APIs and Developer Guidance**
+
+12. **[MDN – `Window` Interface](https://developer.mozilla.org/en-US/docs/Web/API/Window)**
+13. **[MDN – `document.body`](https://developer.mozilla.org/en-US/docs/Web/API/Document/body)**
+14. **[Chrome Developers – `rel=noopener` Best Practice](https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener)**
