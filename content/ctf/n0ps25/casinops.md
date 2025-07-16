@@ -323,7 +323,7 @@ N0PS{s5T1_4veRywh3R3!!}
 
 Flag is: `N0PS{s5T1_4veRywh3R3!!}`
 
-![celebration anime](https://media1.tenor.com/m/qJ_EjDNHqcUAAAAC/usuwam-rajd-hakowanie.gif)
+![celebration hackah~](https://media1.tenor.com/m/qJ_EjDNHqcUAAAAC/usuwam-rajd-hakowanie.gif)
 
 ---
 
