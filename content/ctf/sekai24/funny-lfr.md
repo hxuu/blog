@@ -27,12 +27,10 @@ editPost:
 
 ## Challenge Description
 
-```
-name: funny lfr
-category: web exploitation
-points: 183
-solves: 36 solves
-```
+* name: funny lfr
+* category: web exploitation
+* points: 183
+* solves: 36 solves
 
 You can access the challenge via SSH:
 ```bash
