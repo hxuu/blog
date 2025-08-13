@@ -26,12 +26,10 @@ editPost:
 
 ## Challenge Description
 
-```
-name: Intruder
-category: web exploitation
-points: 100pts
-solves: 89 solves
-```
+* name: Intruder
+* category: web exploitation
+* points: 100pts
+* solves: 89 solves
 
 I just made a book library website! Let me know what you think of it!
 
