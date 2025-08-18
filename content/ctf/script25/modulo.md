@@ -5,11 +5,11 @@ tags: ["ctf", "write-up", "scriptCTF"]
 author: "hxuu"
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "CTF write-up for Modulo"
-summary: ""
+summary: "Python jail challenge exploited via `getattr`, circumventing AST and character restrictions, dynamically generating numbers and strings with `%c` achieving remote code execution."
 canonicalURL: ""
 disableHLJS: false
 disableShare: false
