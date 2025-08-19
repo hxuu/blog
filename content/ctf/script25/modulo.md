@@ -88,8 +88,8 @@ executed as python code, but only after rigurous sanitization and restriction.
 
 In order to escape the jail, we first need to understand what our goal is, and what restrictions are put onto us.
 
-The first is achieved by figuring our the sink, i.e. the dangerous function that we should
-target to get code execution, which in this case is [`exec`](https://docs.python.org/3/library/functions.html#exec).
+The first is achieved by figuring our sink, i.e. the dangerous function that we should
+target to get code execution, which in this case is [exec](https://docs.python.org/3/library/functions.html#exec).
 
 ![exec(source, /, globals=None, locals=None, *, closure=None)](/blog/images/2025-08-18-14-20-47.png)
 
@@ -141,6 +141,7 @@ Now that we understand our goal. Let's see how the jail prevents our initial pay
 ### 1st restriction
 
 ```py
+blacklist = list("abdefghijklmnopqrstuvwxyz1234567890\\;._")
 for i in payload:
     assert ord(i) >= 32
     assert ord(i) <= 127
@@ -170,11 +171,11 @@ for node in ast.walk(tree):
 Here, our payload is parsed into an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree),
 which is a structured representation of python code that can be inspected before execution, namely:
 
-* If any binary operators occurs in our payload => It has to be a modulo (`%`)
+* If any binary operator occurs in our payload => It has to be a modulo (`%`)
 
 What constitutes a binOP though?
 
-The full list of Python binary operators that can appear in an [`ast.BinOp`](https://docs.python.org/3/library/ast.html#ast.BinOp) node is:
+The full list of Python binary operators that can appear in an [ast.BinOp](https://docs.python.org/3/library/ast.html#ast.BinOp) node is:
 
 * Add (`+`)
 * Sub (`-`)
@@ -202,12 +203,12 @@ Our initial working payload is this:
 c.__self__.__import__("os").system("ls")
 ```
 
-Many characters are blocked, so let's walk through it sequentially and see what we can fix:
+Many characters are blocked, so let's walk through them sequentially and see what we can fix:
 
 1. We can use `c` alright, so we'll leave that be.
 2. dots `.` are blocked. Let's stop here.
 
-Reading the [`getattr`](https://docs.python.org/3/library/functions.html#getattr) says that:
+Reading the [getattr](https://docs.python.org/3/library/functions.html#getattr) documentation says:
 
 * `getattr(obj, "field")` is equivalent to `obj.field`
 
@@ -224,14 +225,16 @@ challenge  playground  README.md
 
 If you see now, the new payload doesn't have much we need to change, except for the string literals.
 
-The question then is: How can we generate strings under the restrictions?
+The question then is: How can we generate strings under these restrictions?
 
 ### Generating strings (part 1)
 
 If you're familiar with C, and wrote a hello world program before, you know that
 printing a string requires format specifiers, which build strings using other value types.
 
-Python has the same [printf-style-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-bytes-formatting). You can do `format % values` to generate a string. Namely:
+![C hello world program](/blog/images/2025-08-19-10-39-15.png)
+
+Python has the same [printf-style-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-bytes-formatting). You can do `format % values` to generate a string, more specifically:
 
 * `%c` as format will take integers and converts them to characters
 
@@ -242,7 +245,7 @@ just like this:
 'A'
 ```
 
-The doc also states we can build a string using multiple specifiers and wrapping values inside a tuple.
+The [doc](https://docs.python.org/3/library/stdtypes.html#printf-style-bytes-formatting) also states we can build a string using multiple specifiers and wrapping values inside a tuple.
 
 just like this:
 
@@ -251,7 +254,9 @@ just like this:
 'AB'
 ```
 
-Awesome! we can build strings using numbers, but wait~ numbers are blocked!
+Awesome, we can build strings using numbers!
+
+but wait~ numbers are blocked too!
 
 ![frustrated](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFvcDFrYWN2cDAxNWFudmFlazFuenBtYXlyYmlmbGI2NHp5b2lwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pynZagVcYxVUk/giphy.gif)
 
@@ -266,14 +271,14 @@ It turns out we can be persistent and ask another question:
 It you studied logic in uni, you probably have heard that everything can be built using NAND gates,
 NOT-AND. Well, we can use a similar idea in this case.
 
-Numbers in python are represented using 2's complement (aww the memories~). This kind of representation
-allows us to represent numbers, zero for example as (00000000) where the most significant bit indicates
-sign (0 being positive, 1 otherwise).
+Numbers in python are represented using 2's complement (the memories~). This kind of representation
+allows us to represent numbers, zero for example as (00000000) where the **most significant bit** indicates
+**sign** (0 being positive, 1 otherwise).
 
 Another detail regarding 2's complement is that reading numbers is done by keeping the first
-1 from the right and flipping subsequent digits to get the human value.
+1 from the right and flipping subsequent digits (right to left) to get the actual value.
 
-So (11111111) is actually -1 (-00000001)
+So (11111111) in 2's complement is actually -1 (-00000001)
 
 If you still haven't noticed, we can transition from 0 to -1 by flipping all bits in the number,
 the syntax for this *negation* is `~`:
@@ -297,18 +302,20 @@ again and you can increment 1 to 2, 2 to 3 and so on.
 3
 ```
 
-Awesome! we can get all numbers this way, but our base is still a number :( Is there a thing equivalent to numbers?
+Awesome! we can get all numbers this way, but our base is still a number 😔
 
-The answer is YES! and again, if you're familiar with C, you know that FALSE and TRUE are just
-macros for 0 and 1 respectively. More interestingly, if we check whether `False` is an instance of `int`, we get `True`
+Is there something in python equivalent to numbers?
+
+The answer is YES! and again, if you're familiar with C, you know that **FALSE** and **TRUE** are just
+[macros](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) for **0** and **1** respectively. More interestingly, if we check whether `False` is an instance of `int`, we get `True`
 
 ```py
 >>> isinstance(False, int)
 True
 ```
 
-This means that `~False` will give -1! and remember our comparison and assignment? we can do `X='A'>'B'`,
-and now X holds `False` that we can use to generate numbers, by extension strings.
+This means that `~False` will also give -1! and remember our comparison and assignment? we can do `X='A'>'B'`,
+and now X holds `False` which we can use to generate numbers, by extension strings.
 
 ## Exploitaiton
 
@@ -331,6 +338,10 @@ def str_to_fmt_payload(s: str) -> str:
     encoded_numbers = ", ".join(encode_number(ord(ch)) for ch in s)
     return f"'{fmt}'%({encoded_numbers})"
 ```
+
+{{< notice tip >}}
+Tip: %s means insert the string representation of the object here.
+{{< /notice >}}
 
 ### Step 2: encode_number
 
