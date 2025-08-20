@@ -1,7 +1,7 @@
 ---
 title: "script25: Writeup for Misc/Modulo"
 date: 2025-08-18T12:42:40+01:00
-tags: ["ctf", "write-up", "scriptCTF"]
+tags: ["ctf", "write-up", "scriptCTF", "n00bzCTF"]
 author: "hxuu"
 showToc: true
 TocOpen: false
