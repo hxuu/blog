@@ -11,13 +11,34 @@
     </image>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jul 2025 09:31:33 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 12:42:40 +0100</lastBuildDate>
     <atom:link href="https://hxuu.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctf</title>
       <link>https://hxuu.github.io/blog/tags/ctf/</link>
-      <pubDate>Mon, 14 Jul 2025 09:31:33 +0100</pubDate>
+      <pubDate>Mon, 18 Aug 2025 12:42:40 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>N00bzCTF</title>
+      <link>https://hxuu.github.io/blog/tags/n00bzctf/</link>
+      <pubDate>Mon, 18 Aug 2025 12:42:40 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/tags/n00bzctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ScriptCTF</title>
+      <link>https://hxuu.github.io/blog/tags/scriptctf/</link>
+      <pubDate>Mon, 18 Aug 2025 12:42:40 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/tags/scriptctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Write-Up</title>
+      <link>https://hxuu.github.io/blog/tags/write-up/</link>
+      <pubDate>Mon, 18 Aug 2025 12:42:40 +0100</pubDate>
+      <guid>https://hxuu.github.io/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
@@ -25,13 +46,6 @@
       <link>https://hxuu.github.io/blog/tags/l3ak/</link>
       <pubDate>Mon, 14 Jul 2025 09:31:33 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/tags/l3ak/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Write-Up</title>
-      <link>https://hxuu.github.io/blog/tags/write-up/</link>
-      <pubDate>Mon, 14 Jul 2025 09:31:33 +0100</pubDate>
-      <guid>https://hxuu.github.io/blog/tags/write-up/</guid>
       <description></description>
     </item>
     <item>
@@ -123,13 +137,6 @@
       <link>https://hxuu.github.io/blog/tags/litctf/</link>
       <pubDate>Tue, 13 Aug 2024 19:05:10 +0100</pubDate>
       <guid>https://hxuu.github.io/blog/tags/litctf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>N00bzCTF</title>
-      <link>https://hxuu.github.io/blog/tags/n00bzctf/</link>
-      <pubDate>Fri, 09 Aug 2024 09:40:00 +0100</pubDate>
-      <guid>https://hxuu.github.io/blog/tags/n00bzctf/</guid>
       <description></description>
     </item>
     <item>
